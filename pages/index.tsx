@@ -1,5 +1,7 @@
+import Button from '../components/common/Button/Button'
+
 const Home = () => {
-	return <h1>Home page</h1>
+	return <Button variant='blue'>Button</Button>
 }
 
 export default Home

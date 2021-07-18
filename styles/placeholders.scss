@@ -1,3 +1,7 @@
+@use "styles/variables/typography.scss" as *;
+@use "styles/variables/colors.scss" as *;
+@use "styles/mixins/transitions.scss" as *;
+
 %header-1 {
 	font-weight: $font-weight-bold;
 	font-size: $font-size-xxl;
@@ -52,4 +56,11 @@
 	line-height: $line-height-xxsm;
 	letter-spacing: 0;
 	color: $color-blue-100;
+}
+
+%button {
+	@include transition(background-color);
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
 }
