@@ -1,9 +1,9 @@
-import GoBackButton from '../components/common/GoBackButton/GoBackButton'
+import Tag from '../components/common/Tag'
 
 const Home = () => {
 	return (
 		<>
-			<GoBackButton variant='white'>Go Back</GoBackButton>
+			<Tag variant='active'>Enhancement</Tag>
 		</>
 	)
 }

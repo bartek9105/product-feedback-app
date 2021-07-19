@@ -1,0 +1,24 @@
+@use "styles/variables/colors" as *;
+@use "styles/variables/typography" as *;
+@use "styles/placeholders" as *;
+
+.tag {
+	display: inline-block;
+	font-size: $font-size-xxsm;
+	line-height: $line-height-xsm;
+	letter-spacing: 0;
+	font-weight: $font-weight-semibold;
+	background-color: $color-blue-300;
+	color: $color-blue;
+	border-radius: 10px;
+	padding: 5px 16px;
+	@extend %button;
+	&:hover {
+		background-color: $color-blue-400;
+	}
+}
+
+.tagActive {
+	color: $color-white;
+	background-color: $color-blue;
+}
