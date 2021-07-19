@@ -1,9 +1,9 @@
-import Tag from '../components/common/Tag'
+import LikeButton from '../components/common/LikeButton'
 
 const Home = () => {
 	return (
 		<>
-			<Tag variant='active'>Enhancement</Tag>
+			<LikeButton likesCount={12} />
 		</>
 	)
 }
