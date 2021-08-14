@@ -1,0 +1,41 @@
+@use 'styles/colors' as *;
+
+.button {
+	padding: 13px 51px 11px;
+	border-radius: 10px;
+	color: $color-selago;
+	font-weight: 700;
+	font-size: 14px;
+	cursor: pointer;
+	transition: background-color 0.1s ease-in-out;
+	border: 0;
+	line-height: 20px;
+}
+
+.purple {
+	background-color: $color-electric-violet;
+	&:hover {
+		background-color: $color-heliotrope;
+	}
+}
+
+.blue {
+	background-color: $color-royal-blue;
+	&:hover {
+		background-color: $color-cornflower-blue;
+	}
+}
+
+.black {
+	background-color: $color-east-bay;
+	&:hover {
+		background-color: $color-waikawa-gray;
+	}
+}
+
+.red {
+	background-color: $color-valencia;
+	&:hover {
+		background-color: $color-tonys-pink;
+	}
+}

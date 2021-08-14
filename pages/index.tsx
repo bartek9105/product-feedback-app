@@ -1,11 +1,7 @@
-import LikeButton from '../components/common/LikeButton'
+import Button from 'components/Button'
 
 const Home = () => {
-	return (
-		<>
-			<LikeButton likesCount={12} />
-		</>
-	)
+	return <Button variant='red'>Button 4</Button>
 }
 
 export default Home
