@@ -1,7 +1,7 @@
-import Button from 'components/Button'
+import GoBackButton from 'components/GoBackButton'
 
 const Home = () => {
-	return <Button variant='red'>Button 4</Button>
+	return <GoBackButton variant='black' />
 }
 
 export default Home

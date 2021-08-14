@@ -1,0 +1,30 @@
+@use 'styles/colors' as *;
+
+.button {
+	border: 0;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	padding: 16px 41px 17px;
+	transition: text-decoration 0.3s ease-in-out;
+	border-radius: 10px;
+	cursor: pointer;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.arrowLeftIcon {
+	margin-right: 15px;
+	color: red;
+}
+
+.white {
+	background-color: transparent;
+	color: $color-lynch;
+}
+
+.black {
+	background-color: $color-rhino;
+	color: $color-white;
+}
