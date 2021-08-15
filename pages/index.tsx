@@ -1,7 +1,7 @@
-import GoBackButton from 'components/GoBackButton'
+import InputField from 'components/Form/InputField'
 
 const Home = () => {
-	return <GoBackButton variant='black' />
+	return <InputField placeholder='some input' type='text' error='Some error' />
 }
 
 export default Home

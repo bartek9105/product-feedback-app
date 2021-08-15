@@ -1,0 +1,20 @@
+@use 'styles/colors' as *;
+
+.input {
+	outline: 0;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	padding: 13px 24px;
+	background-color: $color-link-water;
+	color: $color-east-bay;
+	font-size: 15px;
+	line-height: 20px;
+	&:active,
+	&:focus {
+		border: 1px solid $color-royal-blue;
+	}
+}
+
+.error {
+	border: 1px solid $color-valencia;
+}
