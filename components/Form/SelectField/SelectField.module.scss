@@ -1,0 +1,45 @@
+@use 'styles/colors' as *;
+
+.dropdown {
+	width: 255px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	outline: 0;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	padding: 13px 24px 13px 22px;
+	background-color: $color-link-water;
+	color: $color-east-bay;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.dropdownList {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 10px 40px -7px $color-rhino-light;
+}
+
+.dropdownListItem {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: $color-white;
+	color: $color-lynch;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 12px 24px;
+	cursor: pointer;
+	transition: color 0.2s ease-in-out;
+	&:not(:last-of-type) {
+		border-bottom: 1px solid $color-ease-bay-light;
+	}
+	&:hover {
+		color: $color-electric-violet;
+	}
+}

@@ -1,7 +1,18 @@
-import InputField from 'components/Form/InputField'
+import SelectField from 'components/Form/SelectField'
+import { useState } from 'react'
 
 const Home = () => {
-	return <InputField placeholder='some input' type='text' error='Some error' />
+	const [selectedValue, setSelectedValue] = useState('')
+
+	return (
+		<>
+			{selectedValue}
+			<SelectField
+				onSelect={setSelectedValue}
+				options={['Feature', 'UI', 'UX', 'Enhancement', 'Bug']}
+			/>
+		</>
+	)
 }
 
 export default Home
